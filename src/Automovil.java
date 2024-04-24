@@ -4,6 +4,8 @@ public class Automovil {
     int potencia;
     double precio;
 
+    public Automovil() {
+    }
 
     public String getMarca() {
         return marca;
