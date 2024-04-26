@@ -1,10 +1,9 @@
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Intermedio {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 
 
 //        Declarar App con una clase Automovil con las propiedades marca, color, potencia y precio, declarar getters y
@@ -26,9 +25,10 @@ public class Intermedio {
 
 //        Solicitar precio, aplicar iva y mostrar por pantalla el precio final, crear diferentes metodos
 //        ingresarPrecio();
+
     }
 
-//    public static void ingresarPrecio() {
+    //    public static void ingresarPrecio() {
 //        double precio = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el precio"));
 //        mostrarResultado(calcularPrecioFinal(precio));
 //    }
@@ -41,8 +41,6 @@ public class Intermedio {
 //    public static void mostrarResultado(double precioFinal) {
 //        JOptionPane.showMessageDialog(null, "El precio final es: " + precioFinal);
 //    }
-
-
 
 
 }
