@@ -1,7 +1,7 @@
 public class Persona {
     private int id;
     private String nombre;
-    private double tel;
+    private String tel;
     private String email;
     public static int numeroPersonas = 0;
 
@@ -9,7 +9,7 @@ public class Persona {
         this.id = ++numeroPersonas;
     }
 
-    public Persona(String nombre, double tel, String email) {
+    public Persona(String nombre, String tel, String email) {
         this(); //llama al constructor vacio de la clase Persona
         this.nombre = nombre;
         this.tel = tel;
@@ -32,11 +32,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public double getTel() {
+    public String getTel() {
         return tel;
     }
 
-    public void setTel(double tel) {
+    public void setTel(String tel) {
         this.tel = tel;
     }
 
@@ -48,11 +48,22 @@ public class Persona {
         this.email = email;
     }
 
-    public static int getNumeroPersonas() {
-        return numeroPersonas;
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 
-    public static void setNumeroPersonas(int numeroPersonas) {
-        Persona.numeroPersonas = numeroPersonas;
+    public static void main(String[] args) {
+        Persona p = new Persona("Camil", "123456789", "asdas@a.com");
+        Persona p2 = new Persona("asdasd", "423423", "asdas@a.com");
+        Persona p3 = new Persona("Camasdasdil", "42342", "asdasdasd@a.com");
+        System.out.println(p.toString());
+        System.out.println(p2.toString());
+        System.out.println(p3.toString());
     }
 }
