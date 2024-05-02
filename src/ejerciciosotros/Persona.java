@@ -1,3 +1,5 @@
+package ejerciciosotros;
+
 public class Persona {
     private int id;
     private String nombre;
@@ -10,7 +12,7 @@ public class Persona {
     }
 
     public Persona(String nombre, String tel, String email) {
-        this(); //llama al constructor vacio de la clase Persona
+        this(); //llama al constructor vacio de la clase ejerciciosotros.Persona
         this.nombre = nombre;
         this.tel = tel;
         this.email = email;
@@ -50,7 +52,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "ejerciciosotros.Persona{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", tel='" + tel + '\'' +

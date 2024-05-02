@@ -1,4 +1,4 @@
-import javax.swing.*;
+package ejerciciosotros;
 
 public class Intermedio {
 
@@ -6,10 +6,10 @@ public class Intermedio {
 //        Scanner sc = new Scanner(System.in);
 
 
-//        Declarar App con una clase Automovil con las propiedades marca, color, potencia y precio, declarar getters y
+//        Declarar App con una clase ejerciciosotros.Automovil con las propiedades marca, color, potencia y precio, declarar getters y
 //        setters y un metodo para visualizar la info
-//        Automovil automovil1 = new Automovil();
-//        Automovil automovil2 = new Automovil();
+//        ejerciciosotros.Automovil automovil1 = new ejerciciosotros.Automovil();
+//        ejerciciosotros.Automovil automovil2 = new ejerciciosotros.Automovil();
 //
 //        automovil1.setMarca("Toyota");
 //        automovil1.setColor("Rojo");

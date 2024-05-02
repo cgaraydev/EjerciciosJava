@@ -1,3 +1,5 @@
+package ejerciciosotros;
+
 import java.util.Scanner;
 
 public class EjerciciosMath {

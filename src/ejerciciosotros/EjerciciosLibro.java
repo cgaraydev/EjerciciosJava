@@ -1,3 +1,5 @@
+package ejerciciosotros;
+
 public class EjerciciosLibro {
     public static void main(String[] args) {
 ////        Colores de la terminal

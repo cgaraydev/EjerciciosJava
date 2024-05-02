@@ -1,3 +1,5 @@
+package ejerciciosotros;
+
 public class Automovil {
     String marca;
     String color;
@@ -48,7 +50,7 @@ public class Automovil {
 
     @Override
     public String toString() {
-        return "Automovil{" +
+        return "ejerciciosotros.Automovil{" +
                 "marca='" + marca + '\'' +
                 ", color='" + color + '\'' +
                 ", potencia=" + potencia +
