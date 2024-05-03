@@ -22,8 +22,7 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula:\n " +
-                "Nombre = " + nombre;
+        return this.nombre;
     }
 
     @Override
